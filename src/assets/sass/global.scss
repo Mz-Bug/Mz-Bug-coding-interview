@@ -1039,3 +1039,125 @@ a {
         }
     }
 }
+.list-item li::marker {
+    color: var(--primary); /* This changes the color of the bullet points */
+    margin-left: 200px;
+}
+.list{
+    margin-left: 18px;
+}
+
+.jumbotron-main-div{
+    display: flex; 
+    background-color: var(--secondary);  
+    border-radius: 8px; 
+    width:80%;
+}
+.jumbotron-left-div{
+    width: 60%; height: 250px;
+}
+.jumbotron-left-heading{
+    padding-top: 60px; 
+    padding-left:20px; 
+    color: var(--bodyTextColorWhite);
+}
+.jumbotron-lef-subheading{
+    padding-top: 8px;
+    padding-left:20px; 
+    color:var(--bodyTextColorWhite);
+}
+.jumbotron-left-button-main{
+    display: block; 
+    padding-left:20px; 
+    padding-top: 24px;
+}
+.jumbotron-button{
+    background-color: var(--primary);
+    padding: 8px; 
+    width: 100px; 
+    color: var(--bodyTextColorWhite); 
+    border: none; 
+    border-radius: 30px;
+}
+.jumbotron-img-div{
+    width: 40%; 
+    overflow: hidden; 
+    height: 250px
+}
+.jumbotron-img{
+    object-fit: cover; 
+    border-radius: 4px;
+}
+.card-heading{
+    display: inline-block; 
+    text-align: center; 
+    width: 100%; 
+    margin-bottom: 20px;
+}
+.card-div{
+    display: flex; 
+    background-color: var(--bodyTextColorWhite);  
+    border-radius: 8px; 
+    width:70%; 
+    padding: 20px;
+}
+.card-content{
+    width: 33%; 
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px 0px
+}
+.card-h3{
+    padding-top: 20px; 
+    padding-left: 10px; 
+    color: #145FA4;
+}
+.card-span{
+    color:var(--primary) !important; 
+    padding-left: 10px;
+}
+.card-p{
+    padding-top: 10px; 
+    padding-left: 10px; 
+    font-size: 10px;
+    width: 80%
+}
+.card-other{
+    width: 33%; 
+    background-color: white; 
+    border-radius: 8px; 
+    padding: 30px 0px; 
+    margin-left: 15px
+}
+.card-span-2{
+    color:black; 
+    padding-left: 10px;
+}
+
+.card-other-2{
+    width: 33%; 
+    background-color: white; 
+    border-radius: 8px; 
+    padding: 30px 0px; 
+    margin-left: 15px; 
+    background-color: var(--secondary);
+}
+.card-h3-2{
+    padding-top: 20px; 
+    padding-left: 10px; 
+    color: white;
+}
+.card-span-3{
+    color: white;
+     padding-left: 10px;
+}
+.pricing-card{
+    color: white;
+}
+.active-card {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 10px;
+    color: var(--bodyTextColorWhite);
+    width: 80%
+}
